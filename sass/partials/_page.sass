@@ -1,0 +1,104 @@
+@import compass/css3
+
+//-----------------------------------------------
+// The following html5-boilerplate styles should
+// probably be customized for each site
+//-----------------------------------------------
+body, select, input, textarea
+	color: $font-color
+	font-family: $font-stack
+	font-size: 100%
+	color: $font-color
+	line-height: $line-height
+a
+	color: $link-color
+	border-bottom: 1px solid rgba(221,223,225,1)
+	text-decoration: none
+	&:hover
+		color: $link-color
+		border-bottom: 1px solid rgba(21,23,25,1)
+		text-decoration: none
+	&.active
+		color: $active-color
+		border-bottom: 1px solid rgba(139,197,65,1)
+		text-decoration: none
+
+//-----------------------------------
+// Add your own custom styles below
+//-----------------------------------
+
+body
+
+#container
+
+.gallery
+	width: 50%
+	top: 0
+	left: 0
+	bottom: 0
+	position: fixed
+	display: block
+	overflow: hidden
+	background: -webkit-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-01.jpg')
+	background: -moz-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-01.jpg')
+	background: -ms-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-01.jpg')
+	background: -o-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-01.jpg')
+	background: -linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-01.jpg')
+	background-size: cover
+	.logo
+		margin: 0 auto
+		padding-top: 43%
+		width: 254px
+		border: none
+		display: block
+		float: none
+.gallery.management
+	background: -webkit-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/int-01.gif')
+	background: -moz-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/int-01.gif')
+	background: -ms-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/int-01.gif')
+	background: -o-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/int-01.gif')
+	background: -linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/int-01.gif')
+	background-size: cover
+.gallery.contact
+	background: -webkit-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-04.gif')
+	background: -moz-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-04.gif')
+	background: -ms-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-04.gif')
+	background: -o-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-04.gif')
+	background: -linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-04.gif')
+	background-size: cover
+.copy
+	width: 50%
+	position: relative
+	display: block
+	float: right
+	.wrap
+		padding: 0 6em
+		.lead
+			margin-bottom: 4em
+nav
+	margin: 0
+	padding: 1.5em 0 4em 6em
+	display: block
+	position: relative
+	a
+		margin-right: 1em
+		padding-bottom: 3px
+		&:last-child
+			margin: 0
+#main
+.the.company, .the.management, .contact.us
+	padding-top: 3em
+	border-top: 1px solid rgba(221,223,225,1)
+.the.marketplace
+	padding-top: 3em
+article
+	padding: 3em 0
+	border-bottom: 1px solid rgba(221,223,225,1)
+footer
+.copyright
+	padding: 6em 0 3em
+	font-size: .875em
+	color: tint($font-color, 60%)
+.disclaimer
+	padding-top: 6em
+	

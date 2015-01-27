@@ -1,0 +1,795 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"pading",
+				"padding-top"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"slide",
+				"slidePos"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"font",
+				"font-variant"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"photo",
+				"photoset"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"fu",
+				"futura-pt-1"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"futu",
+				"futura-pt-2"
+			],
+			[
+				"rat",
+				"ratio-2"
+			],
+			[
+				"ratio-",
+				"ratio-1"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"hover",
+				"hover"
+			],
+			[
+				"ds",
+				"display	display: inline"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"h",
+				"href"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"p",
+				"Package Control: List Packages"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"oack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Library/WebServer/Documents/gcm/index.html",
+		"/Library/WebServer/Documents/lume-co/index.html",
+		"/Library/WebServer/Documents/lume-co/css/app.css",
+		"/Library/WebServer/Documents/lume-co/css/foundation.css",
+		"/Library/WebServer/Documents/lume-co/style.html",
+		"/Library/WebServer/Documents/lume-co/blog/index-tumblr.html",
+		"/Library/WebServer/Documents/lume-co/blog/index.html",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Samuel/Dropbox/Apps/site44/sqg.site44.com/index.html",
+		"/Library/WebServer/Documents/archives/qualiware/invoice.html",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/Samuel/Dropbox/Active/Lume/Documentation/Lume-Documentation/5.notes/11202014-notesDeliverables.md",
+		"/Library/WebServer/Documents/lume-co/mission.html",
+		"/Library/WebServer/Documents/lume-co/support.html",
+		"/Library/WebServer/Documents/lume-co/blog/index-tumblr-old.html",
+		"/Library/WebServer/Documents/lume-co/blog/post.html",
+		"/Library/WebServer/Documents/lume-co/status.html",
+		"/Library/WebServer/Documents/lume-co/blog/css/app.css",
+		"/Library/WebServer/Documents/lume-co/blog/css/foundation.css",
+		"/Library/WebServer/Documents/lume-co/blog/mission.html",
+		"/Library/WebServer/Documents/lume-co/blog/index-old.html",
+		"/Library/WebServer/Documents/proj/jekyll-test/_config.yml",
+		"/Library/WebServer/Documents/lume-co/img/btn-appStore-outline-01.svg",
+		"/Library/WebServer/Documents/lume-co/email/internal-092014/index.html",
+		"/Library/WebServer/Documents/lume-co/email/jan2014/01-2014.html",
+		"/Library/WebServer/Documents/lume-co/email/template-digest-wide.html",
+		"/Library/WebServer/Documents/lume-co/email/Lume Team News.html",
+		"/Library/WebServer/Documents/lume-co/email/jan2014/template-digest-narrow.html",
+		"/Library/WebServer/Documents/lume-co/email/jan2014/template-digest-wide.html",
+		"/Library/WebServer/Documents/lume-co/email/template-digest-narrow.html",
+		"/Library/WebServer/Documents/lume-co/developer.html",
+		"/Library/WebServer/Documents/lume-co/internships.html",
+		"/Library/WebServer/Documents/lume-co/careers.html",
+		"/Users/Samuel/Dropbox/Writings/Lume/JobDescription-Developer.html",
+		"/Library/WebServer/Documents/lume-co/careers/designer.html",
+		"/Library/WebServer/Documents/lume-co/designer.html",
+		"/Library/WebServer/Documents/lume-co/careers/careers.html",
+		"/Library/WebServer/Documents/lume-co/careers/index.html",
+		"/Library/WebServer/Documents/samuelqgreen/index.html",
+		"/Library/WebServer/Documents/lume/index.html",
+		"/Library/WebServer/Documents/lume/status/index.html",
+		"/Library/WebServer/Documents/lume/support.html",
+		"/Library/WebServer/Documents/lume/careers/marketing.html",
+		"/Library/WebServer/Documents/lume/mission.html",
+		"/Library/WebServer/Documents/lume/blog/themes/sandbox/attachment.php",
+		"/Library/WebServer/Documents/lume/blog/themes/sandbox/tag.php",
+		"/Library/WebServer/Documents/lume/blog/support-test.html",
+		"/Library/WebServer/Documents/lume/privacy.html",
+		"/Library/WebServer/Documents/lume/tos.html",
+		"/Library/WebServer/Documents/lume/careers/index.html",
+		"/Library/WebServer/Documents/lume/careers/designer.html",
+		"/Library/WebServer/Documents/lume/css/app.css",
+		"/Library/WebServer/Documents/lume/css/foundation.css",
+		"/Library/WebServer/Documents/lume/blog/css/foundation.css",
+		"/Library/WebServer/Documents/lume/blog/index-tumblr.html",
+		"/Users/admin/Google Drive/Lume/Jobs - Product Marketing.html",
+		"/Library/WebServer/Documents/lume/email/template-digest-wide.html",
+		"/Library/WebServer/Documents/lume/email/template-digest-narrow.html",
+		"/Library/WebServer/Documents/lume/email/template-light.html",
+		"/Library/WebServer/Documents/lume/js/app.js",
+		"/Library/WebServer/Documents/lume/js/jquery.js",
+		"/Library/WebServer/Documents/lume/email/01-2014.html",
+		"/Library/WebServer/Documents/lume/email/Lume Team News [Fluid].html",
+		"/Library/WebServer/Documents/lume/roadmap.html",
+		"/Users/admin/Google Drive/Lume/Jobs - Brand Designer.html",
+		"/Library/WebServer/Documents/lume/lume.sublime-project",
+		"/Library/WebServer/Documents/lume/Lume Product Roadmap.html",
+		"/Library/WebServer/Documents/lume/webfonts/27DF82_0_unhinted_0.woff",
+		"/Library/WebServer/Documents/lume/img/btn-close-16.svg",
+		"/Library/WebServer/Documents/lume/blog/themes/sandbox/readme.html",
+		"/Library/WebServer/Documents/lume/blog/themes/sandbox/archive.php",
+		"/Library/WebServer/Documents/lume/blog/themes/sandbox/translation/translation-readme.txt",
+		"/Library/WebServer/Documents/lume/email/Lume Team News.html",
+		"/Library/WebServer/Documents/lume/careers/visual-designer.html",
+		"/Library/WebServer/Documents/lume/img/logo-pip.svg",
+		"/Library/WebServer/Documents/lume/blog/css/app.css",
+		"/Library/WebServer/Documents/lume/careers/Lume Marketing Job Description.html",
+		"/Users/admin/Dropbox/Active/_lume/Documentation/Lume Master Plan.md",
+		"/Library/WebServer/Documents/portfolio/dev/css/app.css",
+		"/Library/WebServer/Documents/portfolio/dev/index.html",
+		"/Library/WebServer/Documents/lume/img/hamburger-15.svg",
+		"/Library/WebServer/Documents/lume/img/btn-app-store-14.svg",
+		"/Library/WebServer/Documents/lume/demo.html",
+		"/Library/WebServer/Documents/lume/scroll/Demo/demo.html",
+		"/Library/WebServer/Documents/lume/scroll.html",
+		"/Library/WebServer/Documents/lume/scroll/Demo/jquery.onepage-scroll.js",
+		"/Library/WebServer/Documents/lume/css/onepage-scroll.css",
+		"/Library/WebServer/Documents/lume/js/jquery.onepage-scroll.js",
+		"/Library/WebServer/Documents/lume/img/lume-logo-mobile-sm.svg",
+		"/Library/WebServer/Documents/lume/js/swipe.js",
+		"/Library/WebServer/Documents/lume/support-test.html",
+		"/Library/WebServer/Documents/mgnmbs/portal/js/application.js",
+		"/Library/WebServer/Documents/portfolio/dev/blog/stream-tumblr.html",
+		"/Users/admin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/admin/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Library/WebServer/Documents/portfolio/sqg.sublime-project",
+		"/Library/WebServer/Documents/portfolio/dev/css/foundation.css",
+		"/Library/WebServer/Documents/portfolio/dev/blog/index.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/jawbone-up.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/ios7-beta1.html",
+		"/Users/Samuel/Dropbox/Writings/hidden_in_plain_sight.html",
+		"/Library/WebServer/Documents/portfolio/dev/js/photosets.js",
+		"/Library/WebServer/Documents/portfolio/dev/contact.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/stream.html",
+		"/Users/Samuel/Sites/jacqueline/less/navs.less",
+		"/Library/WebServer/Documents/portfolio/dev/blog/mason-tumblr.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/syndex.html",
+		"/Library/WebServer/Documents/portfolio/dev/js/tumblrautopagernopage.js",
+		"/Library/WebServer/Documents/portfolio/dev/js/mason.js",
+		"/Library/WebServer/Documents/portfolio/dev/blog/smpl.html",
+		"/Library/WebServer/Documents/portfolio/dev/blog/article.html",
+		"/Library/WebServer/Documents/portfolio/stylesheets/app.css",
+		"/Library/WebServer/Documents/portfolio/stylesheets/styles.css",
+		"/Library/WebServer/Documents/portfolio/stylesheets/typography.css",
+		"/Library/WebServer/Documents/portfolio/stylesheets/ui.css",
+		"/Library/WebServer/Documents/portfolio/contact.html",
+		"/Library/WebServer/Documents/portfolio/dev/css/buttons.css",
+		"/Library/WebServer/Documents/portfolio/dev/blog/css/app.css",
+		"/Library/WebServer/Documents/portfolio/dev/blog/css/foundation.css",
+		"/Library/WebServer/Documents/portfolio/dev/css/ui.css",
+		"/Users/Samuel/Sites/portfolio/squintongreen.sublime-project",
+		"/Users/Samuel/Sites/portfolio/stylesheets/app.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/ui.css",
+		"/Users/Samuel/Sites/portfolio/stylesheets/globals.css",
+		"/Users/Samuel/Sites/portfolio/modern.html",
+		"/Users/Samuel/Sites/portfolio/akina.html",
+		"/Users/Samuel/Sites/portfolio/index.html",
+		"/Users/Samuel/Sites/portfolio/logos.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"centered",
+			"center ",
+			"h1",
+			"island 0",
+			"rgba(24, 90, 157, 0.65)",
+			"rgba(67, 206, 162, 0.65)",
+			"\n								background: -webkit-linear-gradient(180deg, ",
+			"rgba(0, 114, 255, 0.65)",
+			"rgba(0, 198, 255, 0.65)",
+			"0deg",
+			"rgba(38, 208, 206, 0.65)",
+			"rgba(26, 41, 128, 0.65)",
+			"rgba(147,237,199,0.65)",
+			"rgba(28,216,210,0.65)",
+			"80",
+			"0.80",
+			"url(\"../img/bg-intro.png\") center top no-repeat",
+			"60,211,173",
+			"76,184,196",
+			"180deg",
+			"58,123,213",
+			"0,210,255",
+			"0deg",
+			"17,255,189",
+			"170,255,169",
+			"255,200,55",
+			"255,160,8",
+			"128",
+			"90deg",
+			"65",
+			"90deg",
+			"128",
+			"#FFC837",
+			"#FF8008",
+			"IndexPage",
+			"November 14, 2014",
+			"lume-co/blog/",
+			"h5",
+			"h3",
+			"E2EAED",
+			"27px",
+			"important",
+			"2px",
+			"4eaaff",
+			"F2F5F7",
+			"CDD5D9",
+			"FAFAFA",
+			"47555B",
+			"set",
+			"secondary",
+			"site",
+			"47555B",
+			"h3",
+			"30",
+			"h4",
+			"3em",
+			"dim",
+			"152",
+			"h3",
+			"footerContent",
+			"image",
+			"style=\"padding-top: 3em;\"",
+			"margin",
+			"h5",
+			"background:#fafeff",
+			"18px",
+			"505050",
+			"headerContent",
+			"Helvetica;",
+			"33",
+			"templateContainer",
+			"customContent",
+			"text ",
+			"<div class=\"large-9 columns\">",
+			"4",
+			"center bright",
+			"- ",
+			"p",
+			"h2",
+			"http://krsna.local/lume-co/",
+			"../careers",
+			"4em",
+			"Your input creates a graph that’s easy to read. ",
+			"center",
+			"12 small-12",
+			"image",
+			"1px",
+			"git",
+			"15s",
+			"80",
+			"F2F5F7",
+			"1em",
+			"padding",
+			"1ebe05",
+			"border",
+			"50%",
+			".5em",
+			"padding",
+			" class=\"text thin light display\"",
+			"png",
+			"nav",
+			"1em",
+			"hide-for-small",
+			"323C40",
+			"47555B",
+			"FAFAFA",
+			"1E2426",
+			"-image",
+			"100",
+			"2em",
+			"81E5A1",
+			"5FC851",
+			"1FA7D0",
+			"52D7E6",
+			"-image",
+			"1s",
+			"the",
+			"text center",
+			"center",
+			"#fafafa",
+			"7",
+			"0",
+			"2px",
+			"h2",
+			"p",
+			"48px",
+			"20px",
+			"31.5px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"island a",
+			"background:#FEFFFF",
+			"fafeff",
+			"lumeapp.co",
+			"mt3",
+			"mt1",
+			"mt2",
+			"lumeapp.co",
+			"39em",
+			"<span class=\"thick\">",
+			"one columns",
+			"five columns",
+			"two columns",
+			"six columns",
+			"five columns",
+			"one columns",
+			"eleven columns",
+			"{validate: {required:true}}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"foundation",
+				"style/css/foundation.css"
+			],
+			[
+				"app.css",
+				"style/css/app.css"
+			],
+			[
+				"index",
+				"style/index.html"
+			],
+			[
+				"foun",
+				"css/foundation.css"
+			],
+			[
+				"miss",
+				"mission.html"
+			],
+			[
+				"app",
+				"css/app.css"
+			],
+			[
+				"sup",
+				"support.html"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"sta",
+				"status.html"
+			],
+			[
+				"post",
+				"blog/post.html"
+			],
+			[
+				"ind",
+				"blog/index.html"
+			],
+			[
+				"devel",
+				"developer.html"
+			],
+			[
+				"mis",
+				"mission.html"
+			],
+			[
+				"sts",
+				"status.html"
+			],
+			[
+				"st",
+				"status.html"
+			],
+			[
+				"int",
+				"internships.html"
+			],
+			[
+				"ca",
+				"careers.html"
+			],
+			[
+				"stat",
+				"status.html"
+			],
+			[
+				"des",
+				"careers/designer.html"
+			],
+			[
+				"status",
+				"status/index.html"
+			],
+			[
+				"mark",
+				"careers/marketing.html"
+			],
+			[
+				"market",
+				"careers/marketing.html"
+			],
+			[
+				"desi",
+				"careers/designer.html"
+			],
+			[
+				"designer",
+				"careers/designer.html"
+			],
+			[
+				"jan",
+				"email/jan2014/01-2014.html"
+			],
+			[
+				"lum",
+				"Lume Product Roadmap.html"
+			],
+			[
+				"supp",
+				"support.html"
+			],
+			[
+				"tos",
+				"tos.html"
+			],
+			[
+				"priva",
+				"privacy.html"
+			],
+			[
+				"visu",
+				"careers/visual-designer.html"
+			],
+			[
+				"to",
+				"tos.html"
+			],
+			[
+				"",
+				"privacy.html"
+			],
+			[
+				"t",
+				"tos.html"
+			],
+			[
+				"pri",
+				"privacy.html"
+			],
+			[
+				"priv",
+				"privacy.html"
+			],
+			[
+				"index-",
+				"blog/index-tumblr.html"
+			],
+			[
+				"demo",
+				"demo.html"
+			],
+			[
+				"s",
+				"support.html"
+			],
+			[
+				"swip",
+				"js/swipe.js"
+			],
+			[
+				"founda",
+				"css/foundation.css"
+			],
+			[
+				"foundatio",
+				"blog/css/foundation.css"
+			],
+			[
+				"foundat",
+				"blog/css/foundation.css"
+			],
+			[
+				"found",
+				"css/foundation.css"
+			],
+			[
+				"ap",
+				"css/app.css"
+			],
+			[
+				"fu",
+				"css/foundation.css"
+			],
+			[
+				"io",
+				"dev/blog/ios7-beta1.html"
+			],
+			[
+				"stre",
+				"dev/blog/stream-tumblr.html"
+			],
+			[
+				"ja",
+				"dev/blog/jawbone-up.html"
+			],
+			[
+				"jaw",
+				"dev/blog/jawbone-up.html"
+			],
+			[
+				"contact",
+				"dev/contact.html"
+			],
+			[
+				"article",
+				"dev/blog/article.html"
+			],
+			[
+				"art",
+				"dev/blog/article.html"
+			],
+			[
+				"contac",
+				"dev/contact.html"
+			],
+			[
+				"strea",
+				"dev/blog/stream.html"
+			],
+			[
+				"arti",
+				"dev/blog/article.html"
+			],
+			[
+				"conta",
+				"contact.html"
+			],
+			[
+				"articl",
+				"dev/blog/article.html"
+			],
+			[
+				"butt",
+				"dev/css/buttons.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Library/WebServer/Documents/samuelqgreen/sqg.sublime-project"
+			],
+			[
+				"sqg",
+				"/Library/WebServer/Documents/portfolio/squintongreen.sublime-project"
+			],
+			[
+				"lc",
+				"/Users/Samuel/Sites/jacqueline/blog/living-color.sublime-project"
+			],
+			[
+				"lo",
+				"/Library/WebServer/Documents/clients/local-color/lc.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true
+}
