@@ -1,0 +1,275 @@
+/* alignment & positioning */
+.left
+	float: left !important
+
+.right
+	float: right !important
+.hide
+	display: none
+
+
+/* padding & margins */
+.p1
+	padding: 1em
+.pt1
+	padding-top: 1em
+.pr1
+	padding-right: 1em
+.pb1
+	padding-bottom: 1em
+.pl1
+	padding-left: 1em
+.p2
+	padding: 2em
+.pt2
+	padding-top: 2em
+.pr2
+	padding-right: 2em
+.pb2
+	padding-bottom: 2em
+.pl2
+	padding-left: 2em
+.p3
+	padding: 3em
+.pt3
+	padding-top: 3em
+.pr3
+	padding-right: 3em
+.pb3
+	padding-bottom: 3em
+.pl3
+	padding-left: 3em
+.p4
+	padding: 4em
+.pt4
+	padding-top: 4em
+.pr4
+	padding-right: 4em
+.pb4
+	padding-bottom: 4em
+.pl4
+	padding-left: 4em
+.p5
+	padding: 5em
+.pt5
+	padding-top: 5em
+.pr5
+	padding-right: 5em
+.pb5
+	padding-bottom: 5em
+.pl5
+	padding-left: 5em
+.p6
+	padding: 6em
+.pt6
+	padding-top: 6em
+.pr6
+	padding-right: 6em
+.pb6
+	padding-bottom: 6em
+.pl6
+	padding-left: 6em
+.p7
+	padding: 7em
+.pt7
+	padding-top: 7em
+.pr7
+	padding-right: 7em
+.pb7
+	padding-bottom: 7em
+.pl7
+	padding-left: 7em
+.p8
+	padding: 8em
+.pt8
+	padding-top: 8em
+.pr8
+	padding-right: 8em
+.pb8
+	padding-bottom: 8em
+.pl8
+	padding-left: 8em
+.p9
+	padding: 9em
+.pt9
+	padding-top: 9em
+.pr9
+	padding-right: 9em
+.pb9
+	padding-bottom: 9em
+.pl9
+	padding-left: 9em
+.p10
+	padding: 10em
+.pt10
+	padding-top: 10em
+.pr10
+	padding-right: 10em
+.pb10
+	padding-bottom: 10em
+.pl10
+	padding-left: 10em
+
+
+/* Grid Structure */
+.grid
+	width: 100%
+	margin: 0 auto
+	padding: 0
+	max-width: 100%
+	max-width: 60em
+	*zoom: 1
+	&:before, &:after
+		content: " "
+		display: table
+	&:after
+		clear: both
+
+.grid .col-1-12
+	width: 1 / 12 * 100%
+.grid .col-2-12
+	width: 2 / 12 * 100%
+.grid .col-3-12
+	width: 3 / 12 * 100%
+.grid .col-4-12
+	width: 4 / 12 * 100%
+.grid .col-5-12
+	width: 5 / 12 * 100%
+.grid .col-6-12
+	width: 6 / 12 * 100%
+.grid .col-7-12
+	width: 7 / 12 * 100%
+.grid .col-8-12
+	width: 8 / 12 * 100%
+.grid .col-9-12
+	width: 9 / 12 * 100%
+.grid .col-10-12
+	width: 10 / 12 * 100%
+.grid .col-11-12
+	width: 11 / 12 * 100%
+.grid .col-12-12
+	width: 12 / 12 * 100%
+
+[class*='col-']
+	width: 100%
+	position:relative
+	float: left
+	display: block
+[class*='col-'].centered
+	position: relative
+	margin-left: auto
+	margin-right: auto
+	padding-right: 0
+	padding-left: 0
+	float: none !important
+.noPad
+	padding: 0 !important
+.noPadL
+	padding-left: 0 !important
+.noPadR
+	padding-right: 0 !important
+.noPadLR
+	padding-right: 0 !important
+	padding-left: 0 !important
+
+.alpha
+	padding-left: (1 / 12 * 100%) / 2
+.omega
+	padding-right: (1 / 12 * 100%) / 2
+
+.push-1
+	position: relative
+	margin-left: 1 / 12 * 100%
+	margin-right: auto
+.pull-1
+	position: relative
+	margin-right: 1 / 12 * 100%
+	margin-left: auto
+.push-2
+	position: relative
+	margin-left: 2 / 12 * 100%
+	margin-right: auto
+.pull-2
+	position: relative
+	margin-right: 2 / 12 * 100%
+	margin-left: auto
+.push-3
+	position: relative
+	margin-left: 3 / 12 * 100%
+	margin-right: auto
+.pull-3
+	position: relative
+	margin-right: 3 / 12 * 100%
+	margin-left: auto
+.push-4
+	position: relative
+	margin-left: 4 / 12 * 100%
+	margin-right: auto
+.pull-4
+	position: relative
+	margin-right: 4 / 12 * 100%
+	margin-left: auto
+.push-5
+	position: relative
+	margin-left: 5 / 12 * 100%
+	margin-right: auto
+.pull-5
+	position: relative
+	margin-right: 5 / 12 * 100%
+	margin-left: auto
+.push-6
+	position: relative
+	margin-left: 6 / 12 * 100%
+	margin-right: auto
+.pull-6
+	position: relative
+	margin-right: 6 / 12 * 100%
+	margin-left: auto
+.push-7
+	position: relative
+	margin-left: 7 / 12 * 100%
+	margin-right: auto
+.pull-7
+	position: relative
+	margin-right: 7 / 12 * 100%
+	margin-left: auto
+.push-8
+	position: relative
+	margin-left: 8 / 12 * 100%
+	margin-right: auto
+.pull-8
+	position: relative
+	margin-right: 8 / 12 * 100%
+	margin-left: auto
+.push-9
+	position: relative
+	margin-left: 9 / 12 * 100%
+	margin-right: auto
+.pull-9
+	position: relative
+	margin-right: 9 / 12 * 100%
+	margin-left: auto
+.push-10
+	position: relative
+	margin-left: 10 / 12 * 100%
+	margin-right: auto
+.pull-10
+	position: relative
+	margin-right: 10 / 12 * 100%
+	margin-left: auto
+.push-11
+	position: relative
+	margin-left: 11 / 12 * 100%
+	margin-right: auto
+.pull-11
+	position: relative
+	margin-right: 11 / 12 * 100%
+	margin-left: auto
+.push-12
+	position: relative
+	margin-left: 12 / 12 * 100%
+	margin-right: auto
+.pull-12
+	position: relative
+	margin-right: 12 / 12 * 100%
+	margin-left: auto

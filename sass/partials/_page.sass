@@ -31,27 +31,31 @@ body
 
 #container
 
-.gallery
-	width: 50%
+header
 	top: 0
 	left: 0
-	bottom: 0
+	right: 0
+	padding: 2em 0
+	width: 100%
 	position: fixed
+	background: #FEFFFF
+nav
+	margin: 0
+	padding: 1.5em 0 4em 6em
 	display: block
-	overflow: hidden
+	position: relative
+	a
+		margin-right: 1em
+		padding-bottom: 3px
+		&:last-child
+			margin: 0
+.gallery
 	background: -webkit-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-01.jpg')
 	background: -moz-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-01.jpg')
 	background: -ms-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-01.jpg')
 	background: -o-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-01.jpg')
 	background: -linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-01.jpg')
 	background-size: cover
-	.logo
-		margin: 0 auto
-		padding-top: 43%
-		width: 254px
-		border: none
-		display: block
-		float: none
 .gallery.management
 	background: -webkit-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/int-01.gif')
 	background: -moz-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/int-01.gif')
@@ -66,25 +70,7 @@ body
 	background: -o-linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-04.gif')
 	background: -linear-gradient(0deg, rgba(35, 37, 38, 0.95) 10%, rgba(65, 67, 69, 0.95) 90%), url('../img/ext-04.gif')
 	background-size: cover
-.copy
-	width: 50%
-	position: relative
-	display: block
-	float: right
-	.wrap
-		padding: 0 6em
-		.lead
-			margin-bottom: 4em
-nav
-	margin: 0
-	padding: 1.5em 0 4em 6em
-	display: block
-	position: relative
-	a
-		margin-right: 1em
-		padding-bottom: 3px
-		&:last-child
-			margin: 0
+
 #main
 .the.company, .the.marketplace, .the.management, .contact.us, .next.page
 	padding-top: 3em
