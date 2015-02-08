@@ -359,10 +359,10 @@ p.lead {
 /* line 7, ../sass/partials/_page.sass */
 body, select, input, textarea {
   color: #3d3f42;
-  font-family: "Merriweather", Georgia, serif;
+  font-family: "Neuton", Georgia, serif;
   font-size: 100%;
   color: #3d3f42;
-  line-height: 1.6em;
+  line-height: 1.4em;
 }
 
 /* line 13, ../sass/partials/_page.sass */
@@ -464,30 +464,25 @@ nav a:last-child {
 }
 
 /* line 89, ../sass/partials/_page.sass */
-.the.company, .the.management, .contact.us {
+.the.company, .the.marketplace, .the.management, .contact.us, .next.page {
   padding-top: 3em;
   border-top: 1px solid #dddfe1;
 }
 
 /* line 92, ../sass/partials/_page.sass */
-.the.marketplace {
-  padding-top: 3em;
-}
-
-/* line 94, ../sass/partials/_page.sass */
 article {
   padding: 3em 0;
   border-bottom: 1px solid #dddfe1;
 }
 
-/* line 98, ../sass/partials/_page.sass */
+/* line 96, ../sass/partials/_page.sass */
 .copyright {
   padding: 6em 0 3em;
   font-size: 0.875em;
   color: #b1b2b3;
 }
 
-/* line 102, ../sass/partials/_page.sass */
+/* line 100, ../sass/partials/_page.sass */
 .disclaimer {
   padding-top: 6em;
 }

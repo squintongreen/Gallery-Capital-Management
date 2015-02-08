@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"font-",
+				"font-size"
+			],
+			[
 				"first",
 				"first-child"
 			],
@@ -68,10 +72,6 @@
 				"futura-pt-1"
 			],
 			[
-				"font-",
-				"font-family"
-			],
-			[
 				"list-",
 				"list-style-type"
 			],
@@ -115,6 +115,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "management.html",
+			"settings":
+			{
+				"buffer_size": 9400,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contact.html",
+			"settings":
+			{
+				"buffer_size": 4108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/partials/_base.sass",
+			"settings":
+			{
+				"buffer_size": 487,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/partials/_page.sass",
+			"settings":
+			{
+				"buffer_size": 3508,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -164,6 +204,16 @@
 	},
 	"file_history":
 	[
+		"/Library/WebServer/Documents/gcm/sass/partials/_page.sass",
+		"/Library/WebServer/Documents/gcm/sass/partials/_base.sass",
+		"/Library/WebServer/Documents/gcm/sass/partials/_fonts.sass",
+		"/Library/WebServer/Documents/gcm/contact.html",
+		"/Library/WebServer/Documents/gcm/management.html",
+		"/Library/WebServer/Documents/gcm/stylesheets/style.css",
+		"/Library/WebServer/Documents/gcm/sass/style.sass",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/CSS.sublime-settings",
 		"/Library/WebServer/Documents/gcm/index.html",
 		"/Library/WebServer/Documents/lume-co/index.html",
 		"/Library/WebServer/Documents/lume-co/css/app.css",
@@ -171,7 +221,6 @@
 		"/Library/WebServer/Documents/lume-co/style.html",
 		"/Library/WebServer/Documents/lume-co/blog/index-tumblr.html",
 		"/Library/WebServer/Documents/lume-co/blog/index.html",
-		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/Samuel/Dropbox/Apps/site44/sqg.site44.com/index.html",
 		"/Library/WebServer/Documents/archives/qualiware/invoice.html",
 		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
@@ -282,16 +331,7 @@
 		"/Library/WebServer/Documents/portfolio/contact.html",
 		"/Library/WebServer/Documents/portfolio/dev/css/buttons.css",
 		"/Library/WebServer/Documents/portfolio/dev/blog/css/app.css",
-		"/Library/WebServer/Documents/portfolio/dev/blog/css/foundation.css",
-		"/Library/WebServer/Documents/portfolio/dev/css/ui.css",
-		"/Users/Samuel/Sites/portfolio/squintongreen.sublime-project",
-		"/Users/Samuel/Sites/portfolio/stylesheets/app.css",
-		"/Users/Samuel/Sites/portfolio/stylesheets/ui.css",
-		"/Users/Samuel/Sites/portfolio/stylesheets/globals.css",
-		"/Users/Samuel/Sites/portfolio/modern.html",
-		"/Users/Samuel/Sites/portfolio/akina.html",
-		"/Users/Samuel/Sites/portfolio/index.html",
-		"/Users/Samuel/Sites/portfolio/logos.html"
+		"/Library/WebServer/Documents/portfolio/dev/blog/css/foundation.css"
 	],
 	"find":
 	{
@@ -310,6 +350,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h5",
+			"01",
+			"ext",
+			"h1",
+			"h5",
+			"41,43,45",
+			"0.90",
+			"90",
+			"4, 105, 56,",
+			"65, 67, 69,",
+			"35, 37, 38,",
+			"90deg",
+			"aside",
+			"Team",
+			"About",
 			"centered",
 			"center ",
 			"h1",
@@ -422,22 +477,7 @@
 			"2em",
 			"81E5A1",
 			"5FC851",
-			"1FA7D0",
-			"52D7E6",
-			"-image",
-			"1s",
-			"the",
-			"text center",
-			"center",
-			"#fafafa",
-			"7",
-			"0",
-			"2px",
-			"h2",
-			"p",
-			"48px",
-			"20px",
-			"31.5px"
+			"1FA7D0"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -473,8 +513,146 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5080,
+								5080
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 716.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "management.html",
+					"settings":
+					{
+						"buffer_size": 9400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7076,
+								7076
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1249.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "contact.html",
+					"settings":
+					{
+						"buffer_size": 4108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1979,
+								1979
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sass/partials/_base.sass",
+					"settings":
+					{
+						"buffer_size": 487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sass/partials/_page.sass",
+					"settings":
+					{
+						"buffer_size": 3508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3318,
+								3318
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -524,6 +702,46 @@
 		"selected_items":
 		[
 			[
+				"page",
+				"sass/partials/_page.sass"
+			],
+			[
+				"_bas",
+				"sass/partials/_base.sass"
+			],
+			[
+				"con",
+				"contact.html"
+			],
+			[
+				"ma",
+				"management.html"
+			],
+			[
+				"_fonts",
+				"sass/partials/_fonts.sass"
+			],
+			[
+				"style",
+				"stylesheets/style.css"
+			],
+			[
+				"mana",
+				"management.html"
+			],
+			[
+				"cont",
+				"contact.html"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
 				"foundation",
 				"style/css/foundation.css"
 			],
@@ -550,14 +768,6 @@
 			[
 				"sup",
 				"support.html"
-			],
-			[
-				"inde",
-				"index.html"
-			],
-			[
-				"in",
-				"index.html"
 			],
 			[
 				"sta",
@@ -769,7 +979,7 @@
 		[
 			[
 				"",
-				"/Library/WebServer/Documents/samuelqgreen/sqg.sublime-project"
+				"/Library/WebServer/Documents/lume-co/lumeco.sublime-project"
 			],
 			[
 				"sqg",
