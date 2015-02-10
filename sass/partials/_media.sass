@@ -10,14 +10,73 @@
 		width: 50%
 	.grid .col-6-12, .grid .col-7-12, .grid .col-8-12, .grid .col-9-12, .grid .col-10-12, .grid .col-11-12, .grid .col-12-12
 		width: 100%
-	.about
-		margin-left: 0
+	.hide-for-small
+		display: none
 	.button.lg
 		display: none
 	.button.sm
 		display: inline-block
+	.island
+		padding: 3em 0
+		&.a
+			h2
+				width: 50%
+		&.b
+			h2
+				width: 100%
+		&.c
+			h2
+				width: 100%
+		&.d
+			h2
+				width: 60%
+	.section.title
+		padding-bottom: 3em
 	.well
-		padding: 2em
+		padding: 2em 3em
+	header
+		.grid
+			padding: .5em 0
+			.col-9-12
+				width: 50%
+		.title
+			padding-left: 1em
+		#toggleMenu
+			padding-right: 1em
+	#toggleMenu
+		margin: 0
+		padding: 0
+		display: inline-block
+	#touchMenu
+		top: 0
+		left: 0
+		right: 0
+		position: absolute
+		z-index: 9999
+		background: #232526
+		a
+			margin: 0 auto
+			padding-bottom: 3em
+			color: #c9cfd9
+			text-align: center
+			display: block
+	#main
+		padding-top: 5em
+	#gallery
+		padding-bottom: 0
+		min-height: 12em
+	#gallery .copy
+		margin: 0
+		h1
+			margin: 0
+			padding-top: 1.5em
+			font-size: 2em
+	.intro p.lead
+		padding: 0 2em
+	.about
+		margin-left: 0
+	#contact .section.title
+		padding-bottom: 2em
 
 // ==|== print styles =======================================================
 // Print styles.
