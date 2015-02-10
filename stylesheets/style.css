@@ -1032,7 +1032,7 @@ a.active {
 }
 /* line 63, ../sass/partials/_page.sass */
 .island.b {
-  background: #232526;
+  background: #21201e;
   color: #8e9299;
 }
 /* line 66, ../sass/partials/_page.sass */
@@ -1075,7 +1075,7 @@ a.active {
 }
 /* line 90, ../sass/partials/_page.sass */
 .island.e {
-  background: #232526;
+  background: #21201e;
 }
 
 /* line 92, ../sass/partials/_page.sass */
@@ -1107,7 +1107,7 @@ header .grid {
 /* line 108, ../sass/partials/_page.sass */
 nav {
   margin: 0;
-  padding: 1.5em 3em 0 0;
+  padding: 2em 3em 0 0;
   display: block;
   position: relative;
 }
