@@ -4,11 +4,20 @@
 // Modify as content requires.
 // ========================================================================== */
 
-@media only screen and (min-width: 480px)
-  /* Style adjustments for viewports 480px and over go here
 
-@media only screen and (min-width: 768px)
-  /* Style adjustments for viewports 768px and over go here
+@media only screen and (max-width: 768px)
+	.grid .col-1-12, .grid .col-2-12, .grid .col-3-12, .grid .col-4-12, .grid .col-5-12
+		width: 50%
+	.grid .col-6-12, .grid .col-7-12, .grid .col-8-12, .grid .col-9-12, .grid .col-10-12, .grid .col-11-12, .grid .col-12-12
+		width: 100%
+	.about
+		margin-left: 0
+	.button.lg
+		display: none
+	.button.sm
+		display: inline-block
+	.well
+		padding: 2em
 
 // ==|== print styles =======================================================
 // Print styles.
@@ -16,5 +25,4 @@
 // ========================================================================== */
 
 @media print
-  +h5bp-media-print
-  /* Style adjustments for print go here
+	+h5bp-media-print
