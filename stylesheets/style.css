@@ -913,21 +913,39 @@ h1 {
 }
 
 /* line 12, ../sass/partials/_fonts.sass */
-p.lead {
-  font-size: 1.5em;
-  font-weight: 700;
-  line-height: 1.6em;
+h2 {
+  font-family: "Neuton", Georgia, serif;
+  font-size: 1.75em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 1em auto;
 }
 
-/* line 17, ../sass/partials/_fonts.sass */
+/* line 18, ../sass/partials/_fonts.sass */
+h4 {
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.1em;
+  letter-spacing: 1px;
+}
+
+/* line 23, ../sass/partials/_fonts.sass */
+p.lead {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  font-weight: 300;
+  color: #6a6e73;
+}
+
+/* line 29, ../sass/partials/_fonts.sass */
 .text.center {
   text-align: center;
 }
-/* line 19, ../sass/partials/_fonts.sass */
+/* line 31, ../sass/partials/_fonts.sass */
 .text.right {
   text-align: right;
 }
-/* line 21, ../sass/partials/_fonts.sass */
+/* line 33, ../sass/partials/_fonts.sass */
 .text.left {
   text-align: left;
 }
@@ -968,33 +986,84 @@ a.active {
   text-decoration: none;
 }
 
-/* line 35, ../sass/partials/_page.sass */
+/* line 30, ../sass/partials/_page.sass */
+.button {
+  padding: 1.25em 3em 1.5em;
+  text-decoration: none;
+}
+/* line 33, ../sass/partials/_page.sass */
+.button.outline {
+  border: 1px solid #3d3f42 !important;
+  background: transparent;
+  color: #3d3f42;
+}
+/* line 37, ../sass/partials/_page.sass */
+.button.outline:hover {
+  border: 1px solid #3d3f42;
+  background: #3d3f42;
+  color: #feffff;
+}
+
+/* line 47, ../sass/partials/_page.sass */
 .island {
+  padding: 5em 0;
   position: relative;
   display: block;
 }
-/* line 38, ../sass/partials/_page.sass */
+/* line 51, ../sass/partials/_page.sass */
 .island.a {
   background: #feffff;
 }
-/* line 40, ../sass/partials/_page.sass */
+/* line 53, ../sass/partials/_page.sass */
+.island.a h2 {
+  width: 25%;
+  border-bottom: 2px solid #3d3f42;
+  padding-bottom: 1em;
+}
+/* line 57, ../sass/partials/_page.sass */
 .island.b {
   background: #232526;
+  color: #8e9299;
 }
-/* line 42, ../sass/partials/_page.sass */
+/* line 60, ../sass/partials/_page.sass */
+.island.b h2 {
+  width: 50%;
+  color: #c9cfd9;
+  border-bottom: 2px solid #c9cfd9;
+  padding-bottom: 1em;
+}
+/* line 65, ../sass/partials/_page.sass */
+.island.b h4 {
+  color: #c9cfd9;
+}
+/* line 67, ../sass/partials/_page.sass */
 .island.c {
   background: #006938;
+  color: #cad0d8;
 }
-/* line 44, ../sass/partials/_page.sass */
+/* line 70, ../sass/partials/_page.sass */
+.island.c h2 {
+  width: 50%;
+  color: #c9cfd9;
+  border-bottom: 2px solid #c9cfd9;
+  padding-bottom: 1em;
+}
+/* line 75, ../sass/partials/_page.sass */
 .island.d {
   background: #feffff;
 }
-/* line 46, ../sass/partials/_page.sass */
+/* line 77, ../sass/partials/_page.sass */
+.island.d h2 {
+  width: 25%;
+  border-bottom: 2px solid #3d3f42;
+  padding-bottom: 1em;
+}
+/* line 81, ../sass/partials/_page.sass */
 .island.e {
   background: #232526;
 }
 
-/* line 48, ../sass/partials/_page.sass */
+/* line 83, ../sass/partials/_page.sass */
 header {
   top: 0;
   left: 0;
@@ -1003,47 +1072,117 @@ header {
   position: fixed;
   z-index: 1001;
 }
-/* line 55, ../sass/partials/_page.sass */
+/* line 90, ../sass/partials/_page.sass */
 header .title {
   padding-left: 3em;
   border: 0 !important;
   text-decoration: none;
 }
-/* line 59, ../sass/partials/_page.sass */
+/* line 94, ../sass/partials/_page.sass */
 header .grid {
   padding: 2em 0;
   background: #FEFFFF;
 }
 
-/* line 62, ../sass/partials/_page.sass */
+/* line 97, ../sass/partials/_page.sass */
 nav {
   margin: 0;
   padding: 1.5em 3em 0 0;
   display: block;
   position: relative;
 }
-/* line 67, ../sass/partials/_page.sass */
+/* line 102, ../sass/partials/_page.sass */
 nav a {
-  margin-right: 3em;
+  margin-right: 5em;
   padding-bottom: 3px;
+  border-bottom: none;
+  font-size: 1.1em;
   display: inline-block;
 }
-/* line 71, ../sass/partials/_page.sass */
+/* line 108, ../sass/partials/_page.sass */
 nav a:last-child {
   margin: 0;
 }
 
-/* line 73, ../sass/partials/_page.sass */
+/* line 110, ../sass/partials/_page.sass */
 #gallery {
   background: url("../img/ext-02-crop.jpg") center center no-repeat;
   background-size: 100%;
   padding-bottom: 9em;
 }
-/* line 77, ../sass/partials/_page.sass */
+/* line 114, ../sass/partials/_page.sass */
 #gallery .copy {
   margin-top: 21em;
   text-align: center;
   color: #feffff;
+}
+
+/* line 119, ../sass/partials/_page.sass */
+.intro div {
+  padding: 0 0 4em;
+  border-bottom: 1px solid #e3eaf5;
+}
+
+/* line 122, ../sass/partials/_page.sass */
+.section.title {
+  padding-bottom: 4em;
+}
+
+/* line 124, ../sass/partials/_page.sass */
+#contact .section.title {
+  padding-bottom: 2em;
+}
+
+/* line 126, ../sass/partials/_page.sass */
+.footnote {
+  padding-top: 4em;
+  border-top: 1px solid #e3eaf5;
+}
+
+/* line 129, ../sass/partials/_page.sass */
+.names {
+  border-right: 1px solid #007f3c;
+}
+/* line 131, ../sass/partials/_page.sass */
+.names a {
+  padding-bottom: 1em;
+  color: rgba(202, 208, 216, 0.85);
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: block;
+  text-decoration: none;
+  border-bottom: none;
+}
+/* line 140, ../sass/partials/_page.sass */
+.names a:hover {
+  color: #cad0d8;
+}
+
+/* line 142, ../sass/partials/_page.sass */
+.bios {
+  margin-left: -1px;
+}
+
+/* line 144, ../sass/partials/_page.sass */
+.email, .locations {
+  text-align: center;
+}
+
+/* line 146, ../sass/partials/_page.sass */
+.email {
+  padding-bottom: 4em;
+  border-bottom: 1px solid #e3eaf5;
+}
+
+/* line 149, ../sass/partials/_page.sass */
+.locations {
+  padding-top: 2em;
+}
+
+/* line 151, ../sass/partials/_page.sass */
+.well {
+  padding: 2em 3.75em;
 }
 
 /* line 7, ../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */

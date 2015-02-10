@@ -27,22 +27,57 @@ a
 		color: $active-color
 		border-bottom: 1px solid rgba(139,197,65,1)
 		text-decoration: none
+.button
+	padding: 1.25em 3em 1.5em
+	text-decoration: none
+	&.outline
+		border: 1px solid $font-color !important
+		background: transparent
+		color: $font-color
+		&:hover
+			border: 1px solid $font-color
+			background: $font-color
+			color: #feffff
+
 
 //-----------------------------------
 // Add your own custom styles below
 //-----------------------------------
 
 .island
+	padding: 5em 0
 	position: relative
 	display: block
 	&.a
 		background: #feffff
+		h2
+			width: 25%
+			border-bottom: 2px solid $font-color
+			padding-bottom: 1em
 	&.b
 		background: #232526
+		color: #8e9299
+		h2
+			width: 50%
+			color: #c9cfd9
+			border-bottom: 2px solid #c9cfd9
+			padding-bottom: 1em
+		h4
+			color: #c9cfd9
 	&.c
 		background: #006938
+		color: #cad0d8
+		h2
+			width: 50%
+			color: #c9cfd9
+			border-bottom: 2px solid #c9cfd9
+			padding-bottom: 1em
 	&.d
 		background: #feffff
+		h2
+			width: 25%
+			border-bottom: 2px solid $font-color
+			padding-bottom: 1em
 	&.e
 		background: #232526
 header
@@ -65,8 +100,10 @@ nav
 	display: block
 	position: relative
 	a
-		margin-right: 3em
+		margin-right: 5em
 		padding-bottom: 3px
+		border-bottom: none
+		font-size: 1.1em
 		display: inline-block
 		&:last-child
 			margin: 0
@@ -78,3 +115,38 @@ nav
 		margin-top: 21em
 		text-align: center
 		color: #feffff
+.intro
+	div
+		padding: 0 0 4em
+		border-bottom: 1px solid #e3eaf5
+.section.title
+	padding-bottom: 4em
+#contact .section.title
+	padding-bottom: 2em
+.footnote
+	padding-top: 4em
+	border-top: 1px solid #e3eaf5
+.names
+	border-right: 1px solid #007f3c
+	a
+		padding-bottom: 1em
+		color: rgba(202,208,216,0.85)
+		font-size: 1.2em
+		font-weight: 500
+		letter-spacing: 1px
+		display: block
+		text-decoration: none
+		border-bottom: none
+		&:hover
+			color: rgba(202,208,216,1)
+.bios
+	margin-left: -1px
+.email, .locations
+	text-align: center
+.email
+	padding-bottom: 4em
+	border-bottom: 1px solid #e3eaf5
+.locations
+	padding-top: 2em
+.well
+	padding: 2em 3.75em
