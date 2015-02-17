@@ -1146,7 +1146,7 @@ nav a:last-child {
 
 /* line 134, ../sass/partials/_page.sass */
 #gallery {
-  background: url("../img/ext-02-crop.jpg") center center no-repeat;
+  background: url("../img/int-01.jpg") center center no-repeat;
   background-size: 100%;
   padding-bottom: 9em;
 }

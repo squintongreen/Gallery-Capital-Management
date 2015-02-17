@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"bakgr",
+				"background"
+			],
+			[
 				"font-",
 				"font-size"
 			],
@@ -116,34 +124,18 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 6336,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "management.html",
-			"settings":
-			{
-				"buffer_size": 9400,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "contact.html",
-			"settings":
-			{
-				"buffer_size": 4108,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "sass/partials/_base.sass",
 			"settings":
 			{
-				"buffer_size": 487,
+				"buffer_size": 526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/partials/_fonts.sass",
+			"settings":
+			{
+				"buffer_size": 583,
 				"line_ending": "Unix"
 			}
 		},
@@ -151,7 +143,23 @@
 			"file": "sass/partials/_page.sass",
 			"settings":
 			{
-				"buffer_size": 3508,
+				"buffer_size": 3174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/partials/_media.sass",
+			"settings":
+			{
+				"buffer_size": 1798,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 18272,
 				"line_ending": "Unix"
 			}
 		}
@@ -204,18 +212,23 @@
 	},
 	"file_history":
 	[
-		"/Library/WebServer/Documents/gcm/sass/partials/_page.sass",
+		"/Users/Samuel/Dropbox/Active/Lume/Documentation/Lume-Documentation/1.system/1.1.overview/System Spec.md",
+		"/Library/WebServer/Documents/gcm/sass/partials/_grid.sass",
+		"/Library/WebServer/Documents/lume-co/index.html",
 		"/Library/WebServer/Documents/gcm/sass/partials/_base.sass",
-		"/Library/WebServer/Documents/gcm/sass/partials/_fonts.sass",
-		"/Library/WebServer/Documents/gcm/contact.html",
-		"/Library/WebServer/Documents/gcm/management.html",
-		"/Library/WebServer/Documents/gcm/stylesheets/style.css",
+		"/Library/WebServer/Documents/gcm/sass/partials/_media-queries.scss",
 		"/Library/WebServer/Documents/gcm/sass/style.sass",
+		"/Library/WebServer/Documents/gcm/sass/partials/_media.sass",
+		"/Library/WebServer/Documents/gcm/contact.html",
+		"/Library/WebServer/Documents/gcm/sass/partials/_fonts.sass",
+		"/Library/WebServer/Documents/gcm/management.html",
+		"/Library/WebServer/Documents/samuelqgreen/sass/partials/_grid.sass",
+		"/Library/WebServer/Documents/gcm/sass/partials/_page.sass",
+		"/Library/WebServer/Documents/gcm/stylesheets/style.css",
 		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/CSS.sublime-settings",
 		"/Library/WebServer/Documents/gcm/index.html",
-		"/Library/WebServer/Documents/lume-co/index.html",
 		"/Library/WebServer/Documents/lume-co/css/app.css",
 		"/Library/WebServer/Documents/lume-co/css/foundation.css",
 		"/Library/WebServer/Documents/lume-co/style.html",
@@ -326,12 +339,7 @@
 		"/Library/WebServer/Documents/portfolio/dev/blog/article.html",
 		"/Library/WebServer/Documents/portfolio/stylesheets/app.css",
 		"/Library/WebServer/Documents/portfolio/stylesheets/styles.css",
-		"/Library/WebServer/Documents/portfolio/stylesheets/typography.css",
-		"/Library/WebServer/Documents/portfolio/stylesheets/ui.css",
-		"/Library/WebServer/Documents/portfolio/contact.html",
-		"/Library/WebServer/Documents/portfolio/dev/css/buttons.css",
-		"/Library/WebServer/Documents/portfolio/dev/blog/css/app.css",
-		"/Library/WebServer/Documents/portfolio/dev/blog/css/foundation.css"
+		"/Library/WebServer/Documents/portfolio/stylesheets/typography.css"
 	],
 	"find":
 	{
@@ -350,6 +358,36 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"the",
+			"The",
+			"232526",
+			"7",
+			"75",
+			"60",
+			"<br />",
+			"10",
+			"href='#' ",
+			"link",
+			"electronic",
+			"section title",
+			"John C Head III",
+			"push-4",
+			"5em",
+			"well",
+			"10",
+			"bio",
+			"bullet",
+			" alpha omega",
+			"3",
+			"center",
+			"h3",
+			"h4",
+			"section",
+			"div c",
+			"div",
+			"col-4-12",
+			"li",
+			"copy",
 			"h5",
 			"01",
 			"ext",
@@ -447,37 +485,7 @@
 			"http://krsna.local/lume-co/",
 			"../careers",
 			"4em",
-			"Your input creates a graph that’s easy to read. ",
-			"center",
-			"12 small-12",
-			"image",
-			"1px",
-			"git",
-			"15s",
-			"80",
-			"F2F5F7",
-			"1em",
-			"padding",
-			"1ebe05",
-			"border",
-			"50%",
-			".5em",
-			"padding",
-			" class=\"text thin light display\"",
-			"png",
-			"nav",
-			"1em",
-			"hide-for-small",
-			"323C40",
-			"47555B",
-			"FAFAFA",
-			"1E2426",
-			"-image",
-			"100",
-			"2em",
-			"81E5A1",
-			"5FC851",
-			"1FA7D0"
+			"Your input creates a graph that’s easy to read. "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -513,107 +521,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 6336,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5080,
-								5080
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 716.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "management.html",
-					"settings":
-					{
-						"buffer_size": 9400,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7076,
-								7076
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1249.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "contact.html",
-					"settings":
-					{
-						"buffer_size": 4108,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1979,
-								1979
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 14.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "sass/partials/_base.sass",
 					"settings":
 					{
-						"buffer_size": 487,
+						"buffer_size": 526,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								89,
-								89
+								114,
+								130
 							]
 						],
 						"settings":
@@ -627,19 +551,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "sass/partials/_page.sass",
+					"buffer": 1,
+					"file": "sass/partials/_fonts.sass",
 					"settings":
 					{
-						"buffer_size": 3508,
+						"buffer_size": 583,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3318,
-								3318
+								370,
+								370
 							]
 						],
 						"settings":
@@ -649,6 +573,88 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/partials/_page.sass",
+					"settings":
+					{
+						"buffer_size": 3174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2121,
+								2121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1376.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sass/partials/_media.sass",
+					"settings":
+					{
+						"buffer_size": 1798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1184,
+								1184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 496.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 18272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8363,
+								8363
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3069.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -702,12 +708,36 @@
 		"selected_items":
 		[
 			[
-				"page",
-				"sass/partials/_page.sass"
-			],
-			[
 				"_bas",
 				"sass/partials/_base.sass"
+			],
+			[
+				"_grid",
+				"sass/partials/_grid.sass"
+			],
+			[
+				"_media",
+				"sass/partials/_media.sass"
+			],
+			[
+				"grid",
+				"sass/partials/_grid.sass"
+			],
+			[
+				"st",
+				"sass/style.sass"
+			],
+			[
+				"_media-",
+				"sass/partials/_media-queries.scss"
+			],
+			[
+				"fon",
+				"sass/partials/_fonts.sass"
+			],
+			[
+				"page",
+				"sass/partials/_page.sass"
 			],
 			[
 				"con",
@@ -791,10 +821,6 @@
 			],
 			[
 				"sts",
-				"status.html"
-			],
-			[
-				"st",
 				"status.html"
 			],
 			[
