@@ -20,31 +20,22 @@
     <script type="text/javascript">
       $(document).ready(function(){
         var toggleMenu = $('#toggleMenu');
+        var menuItem = $('.menuItem');
         var touchMenu = $('#touchMenu');
+
         $(touchMenu).hide();
         $(toggleMenu).click(function() {
-          $(touchMenu).show().fadeIn(300);
+          $(touchMenu).slideDown(300).show();
+          return false;
         });
-        $(toggleMenu).click(function() {
-          $(touchMenu).hide().fadeOut(150);
+        $(menuItem).click(function() {
+          $(touchMenu).slideUp(150);
         });
         $(touchMenu).css('height', 'window.height()');
       });
     </script>
   </head>
   <body>
-    <div id='touchMenu' class='wrap'>
-      <div class='grid'>
-        <div clss='col-12-12'>
-          <nav class='well mobile small medium'>
-            <a href='#the-company' title='The Company'>Company</a>
-            <a href='#the-marketplace' title='The Marketplace'>Marketplace</a>
-            <a href='#the-management' title='The Management'>Management</a>
-            <a href='#contact' title='Contact Us'>Contact Us</a>
-          </nav>
-        </div>
-      </div>
-    </div><!-- /touchMenu -->
     <header>
       <div class='grid'>
         <div class='col-3-12'>
@@ -59,8 +50,18 @@
             <a href='#the-management' title='The Management'>Management</a>
             <a href='#contact' title='Contact Us'>Contact Us</a>
           </nav>
-          <a class='right' id='toggleMenu' href='#' title='Show Menu'>Menu</a>
+          <a class='right' id='toggleMenu' href='' title='Show Menu'>Menu</a>
         </div>
+        <div id='touchMenu' class='grid'>
+          <div clss='col-12-12'>
+            <nav class='well mobile small medium'>
+              <a class='menuItem' href='#the-company' title='The Company'>Company</a>
+              <a class='menuItem' href='#the-marketplace' title='The Marketplace'>Marketplace</a>
+              <a class='menuItem' href='#the-management' title='The Management'>Management</a>
+              <a class='menuItem' href='#contact' title='Contact Us'>Contact Us</a>
+            </nav>
+          </div>
+        </div><!-- /touchMenu -->
       </div>
     </header>
     <div id='main' class='wrap' role='main'>

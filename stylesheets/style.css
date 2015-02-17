@@ -1146,34 +1146,45 @@ nav a:last-child {
 
 /* line 134, ../sass/partials/_page.sass */
 #gallery {
-  background: url("../img/int-01.jpg") center center no-repeat;
+  background: -webkit-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-01.jpg") center center no-repeat;
+  background: -moz-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-01.jpg") center center no-repeat;
+  background: -ms-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-01.jpg") center center no-repeat;
+  background: -o-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-01.jpg") center center no-repeat;
+  background: linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-01.jpg") center center no-repeat;
   background-size: 100%;
   padding-bottom: 9em;
 }
-/* line 138, ../sass/partials/_page.sass */
+/* line 142, ../sass/partials/_page.sass */
 #gallery .copy {
-  margin-top: 21em;
+  margin-top: 19em;
   text-align: center;
   color: #feffff;
+  text-shadow: rgba(35, 37, 38, 0.5) 1px 1px 1px;
+  border: 1px solid #ffffff;
+}
+/* line 148, ../sass/partials/_page.sass */
+#gallery .copy h1 {
+  margin-bottom: 0;
+  padding-bottom: 1em;
 }
 
-/* line 143, ../sass/partials/_page.sass */
+/* line 152, ../sass/partials/_page.sass */
 .intro div {
   padding: 0 0 4em;
   border-bottom: 1px solid #e3eaf5;
 }
 
-/* line 146, ../sass/partials/_page.sass */
+/* line 155, ../sass/partials/_page.sass */
 .section.title {
   padding-bottom: 4em;
 }
 
-/* line 148, ../sass/partials/_page.sass */
+/* line 157, ../sass/partials/_page.sass */
 #contact .section.title {
   padding-bottom: 2em;
 }
 
-/* line 150, ../sass/partials/_page.sass */
+/* line 159, ../sass/partials/_page.sass */
 .name {
   color: #feffff;
   font-size: 1.2em;
@@ -1181,18 +1192,18 @@ nav a:last-child {
   letter-spacing: 1px;
 }
 
-/* line 155, ../sass/partials/_page.sass */
+/* line 164, ../sass/partials/_page.sass */
 .email, .locations {
   text-align: center;
 }
 
-/* line 157, ../sass/partials/_page.sass */
+/* line 166, ../sass/partials/_page.sass */
 .email {
   padding-bottom: 4em;
   border-bottom: 1px solid #e3eaf5;
 }
 
-/* line 160, ../sass/partials/_page.sass */
+/* line 169, ../sass/partials/_page.sass */
 .locations {
   padding-top: 2em;
 }
@@ -1341,7 +1352,7 @@ nav a:last-child {
 
   /* line 50, ../sass/partials/_media.sass */
   #touchMenu {
-    top: 0;
+    top: 93px;
     left: 0;
     right: 0;
     position: absolute;
@@ -1371,25 +1382,26 @@ nav a:last-child {
   /* line 68, ../sass/partials/_media.sass */
   #gallery .copy {
     margin: 0;
+    border: none;
   }
-  /* line 70, ../sass/partials/_media.sass */
+  /* line 71, ../sass/partials/_media.sass */
   #gallery .copy h1 {
     margin: 0;
     padding-top: 1.5em;
     font-size: 2em;
   }
 
-  /* line 74, ../sass/partials/_media.sass */
+  /* line 75, ../sass/partials/_media.sass */
   .intro p.lead {
     padding: 0 2em;
   }
 
-  /* line 76, ../sass/partials/_media.sass */
+  /* line 77, ../sass/partials/_media.sass */
   .about {
     margin-left: 0;
   }
 
-  /* line 78, ../sass/partials/_media.sass */
+  /* line 79, ../sass/partials/_media.sass */
   #contact .section.title {
     padding-bottom: 2em;
   }
