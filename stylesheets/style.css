@@ -1146,11 +1146,11 @@ nav a:last-child {
 
 /* line 134, ../sass/partials/_page.sass */
 #gallery {
-  background: -webkit-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-01.jpg") center center no-repeat;
-  background: -moz-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-01.jpg") center center no-repeat;
-  background: -ms-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-01.jpg") center center no-repeat;
-  background: -o-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-01.jpg") center center no-repeat;
-  background: linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-01.jpg") center center no-repeat;
+  background: -webkit-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-03.jpg") center center no-repeat;
+  background: -moz-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-03.jpg") center center no-repeat;
+  background: -ms-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-03.jpg") center center no-repeat;
+  background: -o-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-03.jpg") center center no-repeat;
+  background: linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-03.jpg") center center no-repeat;
   background-size: 100%;
   padding-bottom: 9em;
 }
