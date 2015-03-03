@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"border",
+				"border"
+			],
+			[
 				"padd",
 				"padding-bottom"
 			],
@@ -64,10 +68,6 @@
 				"font-variant"
 			],
 			[
-				"border",
-				"border-bottom"
-			],
-			[
 				"photo",
 				"photoset"
 			],
@@ -124,18 +124,10 @@
 	"buffers":
 	[
 		{
-			"file": "sass/partials/_base.sass",
+			"file": "sass/partials/_media.sass",
 			"settings":
 			{
-				"buffer_size": 526,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/partials/_fonts.sass",
-			"settings":
-			{
-				"buffer_size": 583,
+				"buffer_size": 1816,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,15 +135,7 @@
 			"file": "sass/partials/_page.sass",
 			"settings":
 			{
-				"buffer_size": 3174,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/partials/_media.sass",
-			"settings":
-			{
-				"buffer_size": 1798,
+				"buffer_size": 4214,
 				"line_ending": "Unix"
 			}
 		},
@@ -159,8 +143,18 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 18272,
+				"buffer_size": 18866,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nTheme - Fox:\n-----------\n\n  # New in Fox 1.1.10\n  \n  Nothing is new! Just be sure to change your \"theme\" in `Settings - User` to:\n  \n  ```\n  {\n    \"theme\": \"Fox.sublime-theme\"\n  }\n  ```\n  \n  *If you have any suggestions for improvements and fixes, please feel free to add issues at [GitHub](http://github.com/karelvuong/fox/issues).*\n  \n  ***\n  \n  \n  *Note: Don't forget to restart Sublime Text after activating the theme.*\n  \n\n  # New in Fox 1.1.9\n  \n  - Fix find and console background color\n  - Fix text input margins\n  \n  *If you have any suggestions for improvements and fixes, please feel free to add issues at [GitHub](http://github.com/karelvuong/fox/issues).*\n  \n  ***\n  \n  \n  *Note: Don't forget to restart Sublime Text after activating the theme.*\n  \n  ",
+			"settings":
+			{
+				"buffer_size": 815,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
 			}
 		}
 	],
@@ -212,15 +206,15 @@
 	},
 	"file_history":
 	[
+		"/Library/WebServer/Documents/gcm/sass/partials/_base.sass",
+		"/Library/WebServer/Documents/gcm/sass/partials/_fonts.sass",
 		"/Users/Samuel/Dropbox/Active/Lume/Documentation/Lume-Documentation/1.system/1.1.overview/System Spec.md",
 		"/Library/WebServer/Documents/gcm/sass/partials/_grid.sass",
 		"/Library/WebServer/Documents/lume-co/index.html",
-		"/Library/WebServer/Documents/gcm/sass/partials/_base.sass",
 		"/Library/WebServer/Documents/gcm/sass/partials/_media-queries.scss",
 		"/Library/WebServer/Documents/gcm/sass/style.sass",
 		"/Library/WebServer/Documents/gcm/sass/partials/_media.sass",
 		"/Library/WebServer/Documents/gcm/contact.html",
-		"/Library/WebServer/Documents/gcm/sass/partials/_fonts.sass",
 		"/Library/WebServer/Documents/gcm/management.html",
 		"/Library/WebServer/Documents/samuelqgreen/sass/partials/_grid.sass",
 		"/Library/WebServer/Documents/gcm/sass/partials/_page.sass",
@@ -358,6 +352,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"int-01",
+			"pany",
+			"url('../img/ext-01.jpg')",
 			"the",
 			"The",
 			"232526",
@@ -482,10 +479,7 @@
 			"- ",
 			"p",
 			"h2",
-			"http://krsna.local/lume-co/",
-			"../careers",
-			"4em",
-			"Your input creates a graph that’s easy to read. "
+			"http://krsna.local/lume-co/"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -521,107 +515,28 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "sass/partials/_base.sass",
-					"settings":
-					{
-						"buffer_size": 526,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								114,
-								130
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sass/partials/_fonts.sass",
-					"settings":
-					{
-						"buffer_size": 583,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								370,
-								370
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sass/partials/_page.sass",
-					"settings":
-					{
-						"buffer_size": 3174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2121,
-								2121
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1376.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "sass/partials/_media.sass",
 					"settings":
 					{
-						"buffer_size": 1798,
+						"buffer_size": 1816,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1184,
-								1184
+								1085,
+								1085
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -632,29 +547,97 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "index.html",
+					"buffer": 1,
+					"file": "sass/partials/_page.sass",
 					"settings":
 					{
-						"buffer_size": 18272,
+						"buffer_size": 4214,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8363,
-								8363
+								1393,
+								1393
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 637.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 18866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4359,
+								4359
+							],
+							[
+								4710,
+								4710
+							],
+							[
+								5077,
+								5077
+							],
+							[
+								5388,
+								5388
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3069.0,
+						"translation.y": 1361.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								815
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 846.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
