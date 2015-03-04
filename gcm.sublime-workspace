@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
 				"border",
 				"border"
 			],
@@ -22,10 +38,6 @@
 			[
 				"first",
 				"first-child"
-			],
-			[
-				"pa",
-				"padding-bottom"
 			],
 			[
 				"pading",
@@ -70,10 +82,6 @@
 			[
 				"photo",
 				"photoset"
-			],
-			[
-				"margin-",
-				"margin-bottom"
 			],
 			[
 				"fu",
@@ -124,10 +132,18 @@
 	"buffers":
 	[
 		{
+			"file": "sass/partials/_grid.sass",
+			"settings":
+			{
+				"buffer_size": 5380,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "sass/partials/_media.sass",
 			"settings":
 			{
-				"buffer_size": 1816,
+				"buffer_size": 1875,
 				"line_ending": "Unix"
 			}
 		},
@@ -135,7 +151,7 @@
 			"file": "sass/partials/_page.sass",
 			"settings":
 			{
-				"buffer_size": 4214,
+				"buffer_size": 5225,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,18 +159,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 18866,
+				"buffer_size": 20420,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nTheme - Fox:\n-----------\n\n  # New in Fox 1.1.10\n  \n  Nothing is new! Just be sure to change your \"theme\" in `Settings - User` to:\n  \n  ```\n  {\n    \"theme\": \"Fox.sublime-theme\"\n  }\n  ```\n  \n  *If you have any suggestions for improvements and fixes, please feel free to add issues at [GitHub](http://github.com/karelvuong/fox/issues).*\n  \n  ***\n  \n  \n  *Note: Don't forget to restart Sublime Text after activating the theme.*\n  \n\n  # New in Fox 1.1.9\n  \n  - Fix find and console background color\n  - Fix text input margins\n  \n  *If you have any suggestions for improvements and fixes, please feel free to add issues at [GitHub](http://github.com/karelvuong/fox/issues).*\n  \n  ***\n  \n  \n  *Note: Don't forget to restart Sublime Text after activating the theme.*\n  \n  ",
-			"settings":
-			{
-				"buffer_size": 815,
-				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"scratch": true
 			}
 		}
 	],
@@ -352,6 +358,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"9-12",
+			"saltemeyer@capitalmanagement.com",
+			"p",
+			"10em",
+			"email",
+			"info@gallerycapitalmanagement.com",
+			"tom",
+			"madding",
+			"p",
+			"cl-effect-3",
+			"h3",
+			"p",
 			"int-01",
 			"pany",
 			"url('../img/ext-01.jpg')",
@@ -467,19 +485,7 @@
 			"background:#fafeff",
 			"18px",
 			"505050",
-			"headerContent",
-			"Helvetica;",
-			"33",
-			"templateContainer",
-			"customContent",
-			"text ",
-			"<div class=\"large-9 columns\">",
-			"4",
-			"center bright",
-			"- ",
-			"p",
-			"h2",
-			"http://krsna.local/lume-co/"
+			"headerContent"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -515,51 +521,50 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "sass/partials/_media.sass",
+					"file": "sass/partials/_grid.sass",
 					"settings":
 					{
-						"buffer_size": 1816,
+						"buffer_size": 5380,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1085,
-								1085
+								2327,
+								2327
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 496.0,
+						"translation.y": 3053.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "sass/partials/_page.sass",
+					"file": "sass/partials/_media.sass",
 					"settings":
 					{
-						"buffer_size": 4214,
+						"buffer_size": 1875,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1393,
-								1393
+								1594,
+								1594
 							]
 						],
 						"settings":
@@ -569,37 +574,53 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 637.0,
+						"translation.y": 1219.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "index.html",
+					"file": "sass/partials/_page.sass",
 					"settings":
 					{
-						"buffer_size": 18866,
+						"buffer_size": 5225,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4359,
-								4359
-							],
+								4370,
+								4370
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2891.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 20420,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								4710,
-								4710
-							],
-							[
-								5077,
-								5077
-							],
-							[
-								5388,
-								5388
+								17822,
+								17822
 							]
 						],
 						"settings":
@@ -610,34 +631,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1361.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"settings":
-					{
-						"buffer_size": 815,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								815,
-								815
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 846.0,
+						"translation.y": 5045.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -691,12 +685,16 @@
 		"selected_items":
 		[
 			[
-				"_bas",
+				"bas",
 				"sass/partials/_base.sass"
 			],
 			[
 				"_grid",
 				"sass/partials/_grid.sass"
+			],
+			[
+				"_bas",
+				"sass/partials/_base.sass"
 			],
 			[
 				"_media",

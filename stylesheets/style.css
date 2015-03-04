@@ -1410,11 +1410,18 @@ nav a:last-child {
 }
 
 /* line 146, ../sass/partials/_page.sass */
+.disclaimer {
+  margin-top: 3em;
+  padding-top: 3em;
+  border-top: 1px solid #3d3f42;
+}
+
+/* line 150, ../sass/partials/_page.sass */
 #toggleMenu {
   display: none;
 }
 
-/* line 148, ../sass/partials/_page.sass */
+/* line 152, ../sass/partials/_page.sass */
 #gallery {
   background: -webkit-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-03.jpg") center center no-repeat;
   background: -moz-linear-gradient(0deg, rgba(35, 37, 38, 0.65) 10%, rgba(65, 67, 69, 0.15) 90%), url("../img/int-03.jpg") center center no-repeat;
@@ -1424,7 +1431,7 @@ nav a:last-child {
   background-size: 100%;
   padding-bottom: 9em;
 }
-/* line 156, ../sass/partials/_page.sass */
+/* line 160, ../sass/partials/_page.sass */
 #gallery .copy {
   margin-top: 19em;
   text-align: center;
@@ -1432,29 +1439,29 @@ nav a:last-child {
   text-shadow: rgba(35, 37, 38, 0.5) 1px 1px 1px;
   border: 1px solid #ffffff;
 }
-/* line 162, ../sass/partials/_page.sass */
+/* line 166, ../sass/partials/_page.sass */
 #gallery .copy h1 {
   margin-bottom: 0;
   padding-bottom: 1em;
 }
 
-/* line 166, ../sass/partials/_page.sass */
+/* line 170, ../sass/partials/_page.sass */
 .intro div {
   padding: 0 0 4em;
   border-bottom: 1px solid #e3eaf5;
 }
 
-/* line 169, ../sass/partials/_page.sass */
+/* line 173, ../sass/partials/_page.sass */
 .section.title {
   padding-bottom: 4em;
 }
 
-/* line 171, ../sass/partials/_page.sass */
+/* line 175, ../sass/partials/_page.sass */
 #contact .section.title {
   padding-bottom: 2em;
 }
 
-/* line 173, ../sass/partials/_page.sass */
+/* line 177, ../sass/partials/_page.sass */
 .name {
   color: #feffff;
   font-size: 1.2em;
@@ -1462,59 +1469,59 @@ nav a:last-child {
   letter-spacing: 1px;
 }
 
-/* line 178, ../sass/partials/_page.sass */
+/* line 182, ../sass/partials/_page.sass */
 .contact, .locations {
   text-align: center;
 }
 
-/* line 180, ../sass/partials/_page.sass */
+/* line 184, ../sass/partials/_page.sass */
 .contact {
   padding-bottom: 4em;
   border-bottom: 1px solid #e3eaf5;
 }
-/* line 183, ../sass/partials/_page.sass */
+/* line 187, ../sass/partials/_page.sass */
 .contact .tel, .contact .email {
   padding-top: 1em;
   padding-bottom: 1em;
   border-top: 1px solid #e3eaf5;
   position: relative;
-  text-align: left;
-}
-/* line 189, ../sass/partials/_page.sass */
-.contact .tel img, .contact .email img {
-  margin-bottom: -0.25em;
-  padding-right: 1em;
 }
 /* line 192, ../sass/partials/_page.sass */
+.contact .tel img, .contact .email img {
+  margin: 0 auto 0.5em;
+  padding-right: 1em;
+  display: block;
+}
+/* line 196, ../sass/partials/_page.sass */
 .contact .email {
   border-bottom: 1px solid #e3eaf5;
 }
-/* line 194, ../sass/partials/_page.sass */
+/* line 198, ../sass/partials/_page.sass */
 .contact .email a {
   color: #3d3f42;
 }
-/* line 196, ../sass/partials/_page.sass */
+/* line 200, ../sass/partials/_page.sass */
 .contact .email a:hover {
   border-bottom: 1px solid #8BC541;
 }
 
-/* line 198, ../sass/partials/_page.sass */
+/* line 202, ../sass/partials/_page.sass */
 .locations {
   padding-top: 2em;
 }
 
-/* line 200, ../sass/partials/_page.sass */
+/* line 204, ../sass/partials/_page.sass */
 .island.a > .col-10-12 .well {
   padding-top: 4em;
 }
 
-/* line 202, ../sass/partials/_page.sass */
+/* line 206, ../sass/partials/_page.sass */
 .cl-effect-3 a {
   padding: 8px 0;
   text-decoration: none;
 }
 
-/* line 205, ../sass/partials/_page.sass */
+/* line 209, ../sass/partials/_page.sass */
 .cl-effect-3 a::after {
   position: absolute;
   top: 100%;
@@ -1532,7 +1539,7 @@ nav a:last-child {
   transform: translateY(10px);
 }
 
-/* line 220, ../sass/partials/_page.sass */
+/* line 224, ../sass/partials/_page.sass */
 .cl-effect-3 a:hover::after,
 .cl-effect-3 a:focus::after {
   opacity: 1;
