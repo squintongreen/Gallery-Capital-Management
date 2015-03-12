@@ -151,7 +151,7 @@
 			"file": "sass/partials/_page.sass",
 			"settings":
 			{
-				"buffer_size": 5225,
+				"buffer_size": 5312,
 				"line_ending": "Unix"
 			}
 		},
@@ -159,7 +159,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 20420,
+				"buffer_size": 20831,
 				"line_ending": "Unix"
 			}
 		}
@@ -584,15 +584,15 @@
 					"file": "sass/partials/_page.sass",
 					"settings":
 					{
-						"buffer_size": 5225,
+						"buffer_size": 5312,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4370,
-								4370
+								3009,
+								3009
 							]
 						],
 						"settings":
@@ -602,7 +602,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2891.0,
+						"translation.y": 2162.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -612,15 +612,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 20420,
+						"buffer_size": 20831,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17822,
-								17822
+								19423,
+								19423
 							]
 						],
 						"settings":
@@ -631,7 +631,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5045.0,
+						"translation.y": 152.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

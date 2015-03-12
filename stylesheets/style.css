@@ -1269,6 +1269,7 @@ a.active {
   display: block;
 }
 /* line 57, ../sass/partials/_page.sass */
+/* Change the background color and text color for island a here. */
 .island.a {
   background: #feffff;
 }
@@ -1296,6 +1297,7 @@ a.active {
   border-top: 1px solid #e3eaf5;
 }
 /* line 74, ../sass/partials/_page.sass */
+/* Change the background color and text color for island b here. */
 .island.b {
   background: #21201e;
   color: #8e9299;
@@ -1317,6 +1319,7 @@ a.active {
   border-top: 1px solid #3d3f42;
 }
 /* line 87, ../sass/partials/_page.sass */
+/* Change the background color and text color for island c here. */
 .island.c {
   background: #006938;
   color: #cad0d8;
@@ -1334,6 +1337,7 @@ a.active {
   float: left;
 }
 /* line 98, ../sass/partials/_page.sass */
+/* Change the background color and text color for island d here. */
 .island.d {
   background: #feffff;
 }
@@ -1344,6 +1348,7 @@ a.active {
   padding-bottom: 1em;
 }
 /* line 104, ../sass/partials/_page.sass */
+/* Change the background color and text color for island e here. */
 .island.e {
   background: #21201e;
 }
