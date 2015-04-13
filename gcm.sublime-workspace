@@ -140,18 +140,10 @@
 			}
 		},
 		{
-			"file": "sass/partials/_media.sass",
+			"file": "stylesheets/style.css",
 			"settings":
 			{
-				"buffer_size": 1875,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/partials/_page.sass",
-			"settings":
-			{
-				"buffer_size": 5312,
+				"buffer_size": 40667,
 				"line_ending": "Unix"
 			}
 		},
@@ -159,7 +151,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 20831,
+				"buffer_size": 27240,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Library/WebServer/Documents/proj/sassline/README.md",
+			"settings":
+			{
+				"buffer_size": 4649,
 				"line_ending": "Unix"
 			}
 		}
@@ -212,6 +212,9 @@
 	},
 	"file_history":
 	[
+		"/Library/WebServer/Documents/gcm/index.html",
+		"/Library/WebServer/Documents/gcm/sass/partials/_page.sass",
+		"/Library/WebServer/Documents/gcm/sass/partials/_media.sass",
 		"/Library/WebServer/Documents/gcm/sass/partials/_base.sass",
 		"/Library/WebServer/Documents/gcm/sass/partials/_fonts.sass",
 		"/Users/Samuel/Dropbox/Active/Lume/Documentation/Lume-Documentation/1.system/1.1.overview/System Spec.md",
@@ -219,16 +222,13 @@
 		"/Library/WebServer/Documents/lume-co/index.html",
 		"/Library/WebServer/Documents/gcm/sass/partials/_media-queries.scss",
 		"/Library/WebServer/Documents/gcm/sass/style.sass",
-		"/Library/WebServer/Documents/gcm/sass/partials/_media.sass",
 		"/Library/WebServer/Documents/gcm/contact.html",
 		"/Library/WebServer/Documents/gcm/management.html",
 		"/Library/WebServer/Documents/samuelqgreen/sass/partials/_grid.sass",
-		"/Library/WebServer/Documents/gcm/sass/partials/_page.sass",
 		"/Library/WebServer/Documents/gcm/stylesheets/style.css",
 		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/Samuel/Library/Application Support/Sublime Text 2/Packages/User/CSS.sublime-settings",
-		"/Library/WebServer/Documents/gcm/index.html",
 		"/Library/WebServer/Documents/lume-co/css/app.css",
 		"/Library/WebServer/Documents/lume-co/css/foundation.css",
 		"/Library/WebServer/Documents/lume-co/style.html",
@@ -358,6 +358,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			": Telephone Number",
 			"9-12",
 			"saltemeyer@capitalmanagement.com",
 			"p",
@@ -484,8 +485,7 @@
 			"h5",
 			"background:#fafeff",
 			"18px",
-			"505050",
-			"headerContent"
+			"505050"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -521,7 +521,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -553,85 +553,82 @@
 				},
 				{
 					"buffer": 1,
-					"file": "sass/partials/_media.sass",
+					"file": "stylesheets/style.css",
 					"settings":
 					{
-						"buffer_size": 1875,
+						"buffer_size": 40667,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1594,
-								1594
+								28321,
+								28321
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1219.0,
+						"translation.y": 23769.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "sass/partials/_page.sass",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 5312,
+						"buffer_size": 27240,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3009,
-								3009
+								21959,
+								21959
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2162.0,
+						"translation.y": 7164.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "index.html",
+					"file": "/Library/WebServer/Documents/proj/sassline/README.md",
 					"settings":
 					{
-						"buffer_size": 20831,
+						"buffer_size": 4649,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19423,
-								19423
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 152.0,
+						"translation.y": 266.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -685,6 +682,14 @@
 		"selected_items":
 		[
 			[
+				"style",
+				"stylesheets/style.css"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
 				"bas",
 				"sass/partials/_base.sass"
 			],
@@ -733,10 +738,6 @@
 				"sass/partials/_fonts.sass"
 			],
 			[
-				"style",
-				"stylesheets/style.css"
-			],
-			[
 				"mana",
 				"management.html"
 			],
@@ -759,10 +760,6 @@
 			[
 				"app.css",
 				"style/css/app.css"
-			],
-			[
-				"index",
-				"style/index.html"
 			],
 			[
 				"foun",
